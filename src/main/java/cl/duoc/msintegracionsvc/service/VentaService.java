@@ -22,7 +22,6 @@ public class VentaService {
 
        String resultado =  webPayAmbFeignClient.createTransaction(tbkApiKeyId, tbkApiKeySecret, webPayInitTransactionDTO);
        
-       instrumentosDbFeignClient.getSaludo();
-       return resultado;  
+       return "";  
     }
 }
